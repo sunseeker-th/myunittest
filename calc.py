@@ -1,18 +1,19 @@
+""" Mathametic functions """
 
-def add(x, y):
+def add(x_1, y_1):
     """Add Function"""
-    return x + y
+    return x_1 + y_1
 
-def subtract(x, y):
+def subtract(x_1, y_1):
     """Substract Function"""
-    return x - y
+    return x_1 - y_1
 
-def multiply(x, y):
+def multiply(x_1, y_1):
     """Multiply Function"""
-    return x * y
+    return x_1 * y_1
 
-def devide(x, y):
+def devide(x_1, y_1):
     """Devide Function"""
-    if y == 0:
+    if y_1 == 0:
         raise ValueError('Can not devide by zero!')
-    return x / y
+    return x_1 / y_1
